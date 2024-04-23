@@ -1,8 +1,3 @@
-AWSTemplateFormatVersion: '2010-09-09'
-Resources:
-  Cloud12:
-    Type: AWS::EC2::Instance
-    Properties:
-      ImageId: ami-0d5eff06f840b45e9
-      InstanceType: t2.micro
-      #Name: MyDummyCloud9
+template-file-path: abi98.yaml
+parameters: {}
+tags: {}
